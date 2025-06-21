@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Artwork Portfolio</title>
+    <style>        body {
+            font-family: 'Times New Roman', Times, serif, 'Times New Roman', Times, serif, Helvetica, sans-serif;
+            padding: 0;
+            background-color: #000000;
+            /* Remove or comment out the background image if you want pure black */
+            /* background: url('OIP (1).jpeg') no-repeat center center fixed; */
+            /* background-size: large; */
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent */
+            color: #d9dc08;
+            padding: 20px;
+            text-align: left;
+        }
+
+        header h1 {
+            font-family: 'Georgia', serif; /* Change to your preferred font */
+            font-size: 3rem; /* Adjust the size */
+            font-weight: bold; /* Adjust the weight */
+            text-transform: uppercase; /* Make the text uppercase */
+            letter-spacing: 2px; /* Add spacing between letters */
+            color: #fffffb; /* Change the font color */
+        }
+
+        nav {
+            background-color: rgba(0, 20, 70, 0.9);
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: left;
+        }
+
+        nav a {
+            color: #f9fafa;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 27px;
+        }
+
+        nav a:hover {
+            text-decoration: plum;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgb(248, 248, 248);
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: rgba(47, 86, 125, 0.9);
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media screen and (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to my art's fandom</h1>
+        <p>Explore my journey through sketches and artworks.</p>
+    </header>
+
+    
+
+    <section id="gallery" class="gallery">
+        <img src="artwork9.jpg" alt="Artwork 9">
+        <img src="artwork8.jpg" alt="Artwork 8">
+        <img src="artwork7.jpg" alt="Artwork 7">
+        <img src="artwork4.jpg" alt="Artwork 4">
+        <img src="artwork3.jpg" alt="Artwork 3">
+        <img src="artwork6.jpg" alt="Artwork 6">
+        <img src="artwork5.jpg" alt="Artwork 5">
+        <img src="artwork2.jpg" alt="Artwork 2">
+        <img src="artwork1.jpg" alt="Artwork 1">
+    </section>
+
+ 
+</body>
+</html>
