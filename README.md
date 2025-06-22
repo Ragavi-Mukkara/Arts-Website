@@ -20,14 +20,14 @@ Explore my original artworks, creative sketches, all curated into a vibrant, vis
 ## 🗂️ Project Structure
 
 Arts-Website/
-├── index.html # Home page
-├── about.html # About the artist
-├── gallery.html # Artwork gallery
-├── contact.html # Contact page
-├── artworks/ # Folder containing all artwork images
-├── css/
+index.html # Home page
+about.html # About the artist
+gallery.html # Artwork gallery
+contact.html # Contact page
+artworks/ # Folder containing all artwork images
+css/
 │ └── style.css # Custom CSS styles
-└── README.md # Project documentation
+README.md # Project documentation
 
 
 
@@ -42,17 +42,12 @@ Arts-Website/
 
 ---
 
-## 🚀 How to Use
 
-To run the website locally:
+## 📸 Website Preview
 
-```bash
-git clone https://github.com/Ragavi-Mukkara/Arts-Website.git
-cd Arts-Website
-open index.html  # or open in your browser
+![Website Preview](artworks/preview.png)
 
-Preview
-![preview](image.png)
+
 
 🙋‍♀️ About Me
 I’m Ragavi Mukkara — an artist, designer, and creative enthusiast. This website is my visual diary showcasing some of my beautiful artworks.
