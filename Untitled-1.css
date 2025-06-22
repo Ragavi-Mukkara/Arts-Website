@@ -59,6 +59,17 @@
         transform: scale(1.05);
     }
 
+    .center-row {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+  align-items: center;      /* centers vertically (optional) */
+  margin: 20px 0;           /* spacing around the row */
+}
+
+
+
+
+
     footer {
         background-color: rgba(47, 86, 125, 0.9);
         color: #ffffff;

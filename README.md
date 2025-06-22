@@ -4,7 +4,7 @@ Welcome to my personal **Arts Website**, a digital gallery showcasing my artisti
 Explore my original artworks, creative sketches, and colorful expressions, all curated into a vibrant, visually engaging portfolio.
 
 🌐 **Live Website:**  
-🔗 [https://ragavi-mukkara.github.io/Arts-Website/](https://ragavi-mukkara.github.io/Arts-Website/)
+🔗
 
 ---
 
